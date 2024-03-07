@@ -11,9 +11,9 @@
             Task task = new Task();
 
             Console.WriteLine("Add task:");
-            taskManager.AddTask(board, "Zero");
-            taskManager.AddTask(board, "One");
-            taskManager.AddTask(board, "Two");
+            task = taskManager.AddTask(board, "Zero");
+            task = taskManager.AddTask(board, "One");
+            task = taskManager.AddTask(board, "Two");
             Console.WriteLine(taskManager.GetTaskList(board));
 
             Console.WriteLine("Remove task:");
