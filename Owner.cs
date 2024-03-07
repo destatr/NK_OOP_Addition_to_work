@@ -9,8 +9,6 @@ namespace NK_OOP_Lab3
     {
  
         public Owner(string name) : base(name) { }
-
-
         public TaskManager TaskManager
         {
             get => default;
@@ -49,7 +47,6 @@ namespace NK_OOP_Lab3
             {
                 board.RemoveMember(member);
                 Console.WriteLine($"Member {member.Name} has been removed from the board.");
-
             }
             else
             {
